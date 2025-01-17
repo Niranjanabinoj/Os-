@@ -4,7 +4,7 @@ echo "Enter second number:"
 read n
 if (($m>$n))
 then
-echo "larger is :"$m
+echo "larger is:"$m
 else
-echo "larger is :"$n
+echo "larger is:"$n
 fi
