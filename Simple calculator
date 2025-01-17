@@ -1,18 +1,18 @@
-echo "Enter 1st number:"
+echo "Enter first number:"
 read x
-echo "Enter 2nd number:"
+echo "Enter second number:"
 read y 
-echo "Menu: 1.Add   2.Subtraction   3.Multiplication   4.Division"
+echo "Menu: 1.Addition  2.Subtraction   3.Multiplication   4.Division"
 read op
 case $op in 
 	1) rs=$(($x+$y))
-	   echo "Sum="$rs;;
+	   echo "Sum is:"$rs;;
 	2) rs=$(($x-$y))
-	   echo "Difference="$rs;;
+	   echo "Difference is:"$rs;;
 	3) rs=$(($x*$y))
-	   echo "Product="$rs;;
+	   echo "Product is:"$rs;;
 	4) rs=$(($x/$y))
-	   echo "Quotient="$rs;;
-	*) echo "Invalid operation!";;
+	   echo "Quotient is:"$rs;;
+	*) echo "Invalid choice";;
 esac	
 	   
