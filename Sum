@@ -1,6 +1,6 @@
-echo "Enter 1st number:"
+echo "Enter a number:"
 read n1
-echo "Enter 2nd number:"
+echo "Enter  number:"
 read n2
 sum=$(($n1+$n2)) 
-echo "Sum is "$sum
+echo "Sum is: "$sum
