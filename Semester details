@@ -1,6 +1,6 @@
-echo "Enter your name"
+echo "read your name"
 read name
-echo "Enter your Semester:"
+echo "Enter  Semester:"
 read sem
 echo "Enter your batch:"
 read batch
@@ -8,8 +8,8 @@ echo "Enter your Roll no:"
 read rollno
 echo "Enter your Register no:"
 read regno
-echo "Name:"$name
-echo "Semester:"$sem
+echo "Name is:"$name
+echo "Semester is:"$sem
 echo "Batch:"$batch
 echo "Roll no:"$rollno
-echo "Register no:"$regno
+echo "Register no is:"$regno
